@@ -1,0 +1,24 @@
+# LEARNING ADA
+
+
+# Resources
+- [convertion char str](http://www.adapower.com/index.php?Command=Class&ClassID=Basics&CID=2);
+
+
+## Questions 
+- how to compare a Character to special characters like EOL/EOF ?
+- how to print the class (name, type) of an object in stdout ?
+
+
+## Objectives
+- understand Ada OO vision, through tagged types and packages; [GOOD PROGRESSES]
+- implements design patterned Game of Life;  [DONE, cf GOL]
+- more design patterns;
+
+
+## Inline Cheat Sheet
+
+        I : Integer := Integer'Value("42");
+        S : String  := Integer'Image(42);
+
+
