@@ -1,0 +1,2 @@
+# Game of Life
+A simple game of life implementation, with a design pattern approach.
