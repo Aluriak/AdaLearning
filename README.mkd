@@ -1,0 +1,3 @@
+# Ada learning base
+Here is many things i do for learn the wonderful Ada programming language.  
+See *LEARNING.mkd* file for next goals.
