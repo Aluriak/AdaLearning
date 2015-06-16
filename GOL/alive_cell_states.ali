@@ -1,0 +1,106 @@
+V "GNAT Lib v5"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U alive_cell_states%b	alive_cell_states.adb	db6f8ba7 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U alive_cell_states%s	alive_cell_states.ads	2358f6ad EE OO PF PK
+W abstract_cell_states%s  abstract_cell_states.adb  abstract_cell_states.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D abstract_cell_states.ads  20150320150619 0d87743e abstract_cell_states%s
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D alive_cell_states.ads	20150319162408 2edf8293 alive_cell_states%s
+D alive_cell_states.adb	20150319162457 cdddfce0 alive_cell_states%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20141031112219 1d274481 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20140225151139 814daec4 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-memory.ads		20140225151139 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20110804083314 542f33d0 system.pool_global%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140718101241 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 abstract_cell_states.ads
+1K9*Abstract_Cell_States 17e25 10|1w6 1r32
+2H14*Abstract_Cell_State_Type 16e69 10|4r43 16r43
+3P14*Abstract_Cell_State(2R14) 10|14r35 11|28r35
+X 2 ada.ads
+16K9*Ada 19e8 11|1r6 4r28
+X 8 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 4r32
+242U14*Put 11|9s20
+X 10 alive_cell_states.ads
+3K9*Alive_Cell_States 16E14 17l5 17e22 11|3b14 32l5 32t22
+4R14*Alive_Cell_State_Type<1|2R14> 5r41 10P19 10r40 11P19 11r36 16c14 16e84
+. 11|17r39 22r35 30r28
+5P14*Alive_Cell_State(4R14)
+8U19*PrintState 11|7b19 10l13 10t23
+9U19*AcceptVisitor 11|12b19 15l13 15t26
+10V19*To_Character{character}<1|10p19> 10>32 11|17b18 20l13 20t25
+10r32 state{4R14} 11|17b31
+11V19*Is_Alive{boolean}<1|11p19> 11>28 11|22b18 25l13 25t21
+11r28 state{4R14} 11|22b27
+14V19*Instance{1|3P14} 11|28b19 31l13 31t21
+X 11 alive_cell_states.adb
+4K17 IO=4:32 9r17
+X 14 system.ads
+67M9*Address
+X 20 s-memory.ads
+53V13*Alloc{14|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{14|67M9} 105i<c,__gnat_realloc>22
+X 27 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

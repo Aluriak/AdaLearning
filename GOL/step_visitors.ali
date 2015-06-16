@@ -1,0 +1,192 @@
+V "GNAT Lib v5"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U step_visitors%b	step_visitors.adb	a998b334 NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W alive_cell_states%s	alive_cell_states.adb	alive_cell_states.ali
+W dead_cell_states%s	dead_cell_states.adb	dead_cell_states.ali
+W games_of_life%s	games_of_life.adb	games_of_life.ali
+W interfaces%s		interfac.ads		interfac.ali
+W switch_state_actions%s  switch_state_actions.adb  switch_state_actions.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W world_visitors%s	world_visitors.ads	world_visitors.ali
+
+U step_visitors%s	step_visitors.ads	a4df36c0 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+W ada.containers.vectors%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.adb		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W games_of_life%s	games_of_life.adb	games_of_life.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W world_visitors%s	world_visitors.ads	world_visitors.ali
+
+D abstract_cell_states.ads  20150320150619 0d87743e abstract_cell_states%s
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20101025135029 61e5e089 ada.containers%s
+D a-cgarso.ads		20070406091342 9129bfa8 ada.containers.generic_array_sort%s
+D a-convec.ads		20120217141546 0aaf3975 ada.containers.vectors%s
+D a-convec.adb		20141120141704 ba592863 ada.containers.vectors%b
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D alive_cell_states.ads	20150319162408 2edf8293 alive_cell_states%s
+D dead_cell_states.ads	20150331114513 0f168b9b dead_cell_states%s
+D games_of_life.ads	20150511155335 9f0b0fcd games_of_life%s
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D step_visitors.ads	20150320152731 fc903000 step_visitors%s
+D step_visitors.adb	20150320182104 568bc1b2 step_visitors%b
+D switch_state_actions.ads  20150401165534 4f3ba0fe switch_state_actions%s
+D system.ads		20141031112219 1d274481 system%s
+D s-atocou.ads		20141017084241 cd7c94ca system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-finmas.ads		20140225151139 814daec4 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-memory.ads		20140225151139 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20110804083314 542f33d0 system.pool_global%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140718101241 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-valint.ads		20090409150019 48a52a3f system.val_int%s
+D world_visitors.ads	20150320152649 f27ae4bd world_visitors%s
+X 1 abstract_cell_states.ads
+3P14*Abstract_Cell_State(2R14)
+X 2 ada.ads
+16K9*Ada 19e8 23|1r6 2r6 9r39 10r28
+X 5 a-contai.ads
+16K13*Containers 24e19 23|1r10 9r43
+X 7 a-convec.ads
+45k24*Vectors 474e27 23|1w21 9r54
+55R9*Vector<10|43R9> 23|21r36[9] 22r36[9]
+243U14*Append 24|13s34[23|9] 16s34[23|9]
+323V13*Contains{boolean} 24|28s43[23|9] 34s50[23|9]
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|70]>
+X 13 a-string.ads
+16K13*Strings 35e16 23|2r10 10r32
+X 15 a-strunb.ads
+76K21*Unbounded 489e26 23|2w18 10r40
+79R9*Unbounded_String<10|43R9> 473e14 23|15r63 23r27 24|45r63
+94V13*To_Unbounded_String{79R9} 24|18s35
+X 19 alive_cell_states.ads
+3K9*Alive_Cell_States 17e22 24|4w6 31r57
+14V19*Instance{1|3P14} 24|31s75
+X 20 dead_cell_states.ads
+3K9*Dead_Cell_States 17e21 24|5w6 37r57
+14V19*Instance{1|3P14} 24|37s74
+X 21 games_of_life.ads
+7K9*Games_Of_Life 40e18 23|4w6 14r46 24|2w6 22r71
+8i33 Row_Size{natural} 24|25r35
+8i43 Col_Size{natural} 24|26r43
+9P14*Game_Of_Life(8R14) 23|14r60 24|22r85
+19U19*Add_Action 24|29R45 35R45
+24V19*StateAt{1|3P14} 24|30R61 36R61
+26V19*Alive_Neighbors{natural} 24|27R50
+X 23 step_visitors.ads
+6K9*Step_Visitors 17E14 25l5 25e18 24|7b14 51l5 51t18
+7R14*Step_Visitor_Type<50|5R14> 8r41 13P19 13r39 15P19 15r34 17c14 24e19
+. 24|10r46 22r39 45r34
+8P14*Step_Visitor(7R14) 24|10r26
+9K17*Integer_Vector[7|45] 21r21 22r21
+10K17*US=10:40 15r60 23r24 24|18r32 45r60
+12V19*Init{50|6P14} 12>24 12>27 12>30 24|9b18 20t12
+12a24 B{string} 24|9b23 12r26
+12a27 S{string} 24|9b26 15r26
+12a30 Name{string} 24|9b29 18r55
+13U19*Visite_World<50|10p19> 13>32 14=32 24|22b19 43l13 43t25
+13r32 Self{7R14} 24|22b32 28r36 34r43
+14p32 Gol{21|9P14} 24|22b58 25r31 26r39 27r46 29r41 30r57 35r41 36r57
+15V19*getName{15|79R9}<50|12p19> 15>27 24|45b19 48l13 48t20
+15r27 Self{7R14} 24|45b27 47r24
+21r17 B{7|55R9[9]} 24|13m32 28r41
+22r17 S{7|55R9[9]} 24|16m32 34r48
+23r17 Name{15|79R9} 24|18m24 47r29
+X 24 step_visitors.adb
+10p17 Object{23|8P14} 13r25 16r25 18r17 19r53
+12e21 X=12:26{character} 13r55
+15e21 Y=15:26{character} 16r55
+23i17 Neighbors{natural} 27m33 28r52 34r59
+25i21 Row{integer} 27r66 30r69 32r57 36r69 38r57
+26i29 Col{integer} 27r71 30r74 32r62 36r74 38r62
+X 25 switch_state_actions.ads
+6K9*Switch_State_Actions 24|3w6 29r56 35r56 25|20e25
+8P14*Switch_State_Action(7R14)
+10V19*Init{8P14} 24|29s77 35s77
+X 26 system.ads
+67M9*Address
+X 32 s-memory.ads
+53V13*Alloc{26|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{26|67M9} 105i<c,__gnat_realloc>22
+X 39 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 50 world_visitors.ads
+4K9*World_Visitors 23|3w6 7r39 12r52 17r39 24|1w6 9r51 19r24 50|15e19
+5H14*World_Visitor_Type 23|7r54 17r54 50|14e63
+6P14*World_Visitor(5R14) 23|12r67 24|9r66 19r39
+

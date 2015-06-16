@@ -1,0 +1,97 @@
+V "GNAT Lib v5"
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U world_visitors%s	world_visitors.ads	52e03fb5 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Y games_of_life%s	games_of_life.adb	games_of_life.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D abstract_cell_states.ads  20150320150619 0d87743e abstract_cell_states%s
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20101025135029 61e5e089 ada.containers%s
+D a-convec.ads		20120217141546 0aaf3975 ada.containers.vectors%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D alive_cell_states.ads	20150319162408 2edf8293 alive_cell_states%s
+D dead_cell_states.ads	20150331114513 0f168b9b dead_cell_states%s
+D games_of_life.ads	20150511155335 9f0b0fcd games_of_life%s
+D switch_state_actions.ads  20150401165534 4f3ba0fe switch_state_actions%s
+D system.ads		20141031112219 1d274481 system%s
+D s-atocou.ads		20141017084241 cd7c94ca system.atomic_counters%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-finmas.ads		20140225151139 814daec4 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-memory.ads		20140225151139 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20110804083314 542f33d0 system.pool_global%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140718101241 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D world_visitors.ads	20150320152649 f27ae4bd world_visitors%s
+X 2 ada.ads
+16K9*Ada 19e8 40|1r6 7r28
+X 11 a-string.ads
+16K13*Strings 35e16 40|1r10 7r32
+X 13 a-strunb.ads
+76K21*Unbounded 489e26 40|1w18 7r40
+79R9*Unbounded_String<8|43R9> 473e14 40|12r64
+X 18 games_of_life.ads
+7K9 Games_Of_Life 40|11r49
+X 20 system.ads
+67M9*Address
+X 25 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 32 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 40 world_visitors.ads
+4K9*World_Visitors 14E14 15l5 15e19
+5H14*World_Visitor_Type 6r42 10p19 10r42 12p19 12r34 14c14 14e63
+6P14*World_Visitor(5R14) 9r31
+7K17*US=7:40 12r61
+9y19*Init{6P14}
+10x19*Visite_World 10>32 11=32
+10r32 Visitor{5R14}
+11+32 Gol
+12y19*getName{13|79R9} 12>27
+12r27 Self{5R14}
+

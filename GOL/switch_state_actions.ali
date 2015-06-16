@@ -1,0 +1,106 @@
+V "GNAT Lib v5"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U switch_state_actions%b  switch_state_actions.adb  dce0fbbb NE OO PK
+W abstract_cell_states%s  abstract_cell_states.adb  abstract_cell_states.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W alive_cell_states%s	alive_cell_states.adb	alive_cell_states.ali
+W dead_cell_states%s	dead_cell_states.adb	dead_cell_states.ali
+W games_of_life%s	games_of_life.adb	games_of_life.ali
+
+U switch_state_actions%s  switch_state_actions.ads  fc7ed205 EE OO PF PK
+W abstract_cell_states%s  abstract_cell_states.adb  abstract_cell_states.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W alive_cell_states%s	alive_cell_states.adb	alive_cell_states.ali
+W dead_cell_states%s	dead_cell_states.adb	dead_cell_states.ali
+Y games_of_life%s	games_of_life.adb	games_of_life.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D abstract_cell_states.ads  20150320150619 0d87743e abstract_cell_states%s
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20101025135029 61e5e089 ada.containers%s
+D a-convec.ads		20120217141546 0aaf3975 ada.containers.vectors%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D alive_cell_states.ads	20150319162408 2edf8293 alive_cell_states%s
+D dead_cell_states.ads	20150331114513 0f168b9b dead_cell_states%s
+D games_of_life.ads	20150511155335 9f0b0fcd games_of_life%s
+D switch_state_actions.ads  20150401165534 4f3ba0fe switch_state_actions%s
+D switch_state_actions.adb  20150320145930 209e29be switch_state_actions%b
+D system.ads		20141031112219 1d274481 system%s
+D s-atocou.ads		20141017084241 cd7c94ca system.atomic_counters%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-finmas.ads		20140225151139 814daec4 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20110804083314 542f33d0 system.pool_global%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140718101241 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D world_visitors.ads	20150320152649 f27ae4bd world_visitors%s
+X 1 abstract_cell_states.ads
+1K9*Abstract_Cell_States 17e25 19|1w6 10r50 17r40 20|1w6 2r6 8r50
+3P14*Abstract_Cell_State(2R14) 19|10r71 17r61 20|8r71
+X 16 alive_cell_states.ads
+3K9*Alive_Cell_States 17e22 19|2w6 20|3w6
+X 17 dead_cell_states.ads
+3K9*Dead_Cell_States 17e21 19|3w6 20|4w6
+X 18 games_of_life.ads
+7K9*Games_Of_Life 40e18 19|12r73 13r73 20|5w6 14r73 20r73
+9P14*Game_Of_Life(8R14) 20|14r87 20r87
+24V19*StateAt{1|3P14} 20|16R35 22R35
+25U19*StateAt 20|17R21 23R21
+25p76 Set_To{1|3P14} 20|17r49 23r49
+X 19 switch_state_actions.ads
+6K9*Switch_State_Actions 15E14 20l5 20e25 20|7b14 25l5 25t25
+7R14*Switch_State_Action_Type 8r44 12p19 12r34 13p19 13r34 15c14 19e19 20|11r28
+. 14r34 20r34
+8P14*Switch_State_Action(7R14) 11r53 20|9r54
+10V19*Init{8P14} 10>27 10>38 11>27 11>32 20|8b19 12l13 12t17
+10p27 Old_State{1|3P14} 20|8b27 11r54
+10p38 New_State{1|3P14} 20|8b38 11r65
+11i27 Row{natural} 20|9b27 11r76
+11i32 Col{natural} 20|9b32 11r81
+12U19*Execute 12>27 12=60 20|14b19 18l13 18t20
+12r27 Self{7R14} 20|14b27 16r43 16r53 16r65 17r29 17r39 17r59
+12p60 Gol{18|9P14} 20|14b60 16r31 17r17
+13U19*Undo 13>27 13=60 20|20b19 24l13 24t17
+13r27 Self{7R14} 20|20b27 22r43 22r53 22r65 23r29 23r39 23r59
+13p60 Gol{18|9P14} 20|20b60 22r31 23r17
+17p17*Old_State{1|3P14} 20|16r70 23r64
+17p28*New_State{1|3P14} 20|17r64 22r70
+18i17*Row{natural} 20|16r48 17r34 22r48 23r34
+18i22*Col{natural} 20|16r58 17r44 22r58 23r44
+
