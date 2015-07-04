@@ -21,6 +21,8 @@ badd +1 command_invokers.ads
 badd +1 command_invokers.adb
 badd +0 repeat_commands.adb
 badd +0 repeat_commands.ads
+badd +0 repeat_command_callbacks.adb
+badd +0 repeat_command_callbacks.ads
 argglobal
 silent! argdel *
 argadd ~/Programmation/Ada/learning/data_structure/priority_queue/test_priority_queue.ads
@@ -48,7 +50,7 @@ if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 20
-normal! 0132|
+normal! 026|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 tabedit ~/Programmation/Ada/learning/data_structure/priority_queue/command_invokers.ads
 set splitbelow splitright
@@ -78,7 +80,7 @@ if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 13
-normal! 057|
+normal! 039|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 argglobal
@@ -92,12 +94,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 18 - ((17 * winheight(0) + 24) / 48)
+let s:l = 14 - ((13 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-18
-normal! 029|
+14
+normal! 030|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
@@ -125,12 +127,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 20 - ((19 * winheight(0) + 24) / 48)
+let s:l = 3 - ((2 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-20
-normal! 024|
+3
+normal! 0
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 argglobal
@@ -144,12 +146,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 8 - ((7 * winheight(0) + 24) / 48)
+let s:l = 9 - ((8 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-8
-normal! 023|
+9
+normal! 021|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
@@ -177,12 +179,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 9 - ((8 * winheight(0) + 24) / 48)
+let s:l = 11 - ((10 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 065|
+11
+normal! 0
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 argglobal
@@ -196,12 +198,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 5 - ((4 * winheight(0) + 24) / 48)
+let s:l = 15 - ((14 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-5
-normal! 097|
+15
+normal! 05|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
@@ -229,12 +231,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 11 - ((10 * winheight(0) + 24) / 48)
+let s:l = 1 - ((0 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-11
-normal! 04|
+1
+normal! 0
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 argglobal
@@ -248,12 +250,64 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 20 - ((19 * winheight(0) + 24) / 48)
+let s:l = 13 - ((12 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-20
-normal! 052|
+13
+normal! 023|
+lcd ~/Programmation/Ada/learning/data_structure/priority_queue
+wincmd w
+exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
+exe 'vert 2resize ' . ((&columns * 95 + 95) / 191)
+tabedit ~/Programmation/Ada/learning/data_structure/priority_queue/repeat_command_callbacks.ads
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+set nosplitbelow
+set nosplitright
+wincmd t
+set winheight=1 winwidth=1
+exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
+exe 'vert 2resize ' . ((&columns * 95 + 95) / 191)
+argglobal
+edit ~/Programmation/Ada/learning/data_structure/priority_queue/repeat_command_callbacks.ads
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+silent! normal! zE
+let s:l = 11 - ((10 * winheight(0) + 24) / 48)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+11
+normal! 029|
+lcd ~/Programmation/Ada/learning/data_structure/priority_queue
+wincmd w
+argglobal
+edit ~/Programmation/Ada/learning/data_structure/priority_queue/repeat_command_callbacks.adb
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+silent! normal! zE
+let s:l = 12 - ((11 * winheight(0) + 24) / 48)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+12
+normal! 022|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)
@@ -300,11 +354,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 13 - ((12 * winheight(0) + 24) / 48)
+let s:l = 10 - ((9 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-13
+10
 normal! 05|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
@@ -333,12 +387,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 11 - ((10 * winheight(0) + 24) / 48)
+let s:l = 10 - ((9 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-11
-normal! 050|
+10
+normal! 088|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 argglobal
@@ -352,12 +406,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal nofen
 silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 24) / 48)
+let s:l = 5 - ((4 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10
-normal! 021|
+5
+normal! 088|
 lcd ~/Programmation/Ada/learning/data_structure/priority_queue
 wincmd w
 exe 'vert 1resize ' . ((&columns * 95 + 95) / 191)

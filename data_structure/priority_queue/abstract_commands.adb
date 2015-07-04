@@ -6,6 +6,7 @@ package body Abstract_Commands is
     begin
         return Command.Receptor;
     end;
+
     function Call_Time (Command : Abstract_Command_Type) return Ada.Calendar.Time is
     begin
         return Command.Call_Time;
