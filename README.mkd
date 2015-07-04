@@ -18,7 +18,15 @@ Here is many things i do for learn the wonderful Ada programming language.
 
 ## Inline Cheat Sheet
 
-        I : Integer := Integer'Value("42");
-        S : String  := Integer'Image(42);
+    I : Integer := Integer'Value("42");
+    F : Float   := Float(42);
+    S : String  := Integer'Image(42);
 
+By *sparre*, on *#ada@freenode.net*, about differences between T and T'Class:
+
+    procedure P (O : T); -- operates only on objects of type T, but is automatically inherited by descendants.
+    procedure Q (O : T'Class); -- operates on objects of type T or any descendant of T, but isn't inherited.
+    -- You typically write "constructors" as functions returning T'Class (to avoid the function being inherited).
+    -- Moreover, constructors are usually in a nested package.
+    --  the whole point in putting constructors in (nested) child packages is to avoid them being primitive.
 
