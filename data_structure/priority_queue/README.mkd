@@ -1,0 +1,5 @@
+# Priority queue
+
+Use the built-in priority queue for implement a easily usable priority queue that invoke actions, according to the Command pattern.
+The actions are defined as an object that have an execute method and a time attribute. Actions are sorted by priority,
+and an action is executed only if the time is equal or superior to actions' time attribute.
